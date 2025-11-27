@@ -21,7 +21,7 @@ public class Main {
     static int rev(int input) {
         String str = Integer.toString(input);
 
-        StringBuffer sb = new StringBuffer(str);
+        StringBuilder sb = new StringBuilder(str);
         String reverse = sb.reverse().toString();
 
         int revValue = Integer.parseInt(reverse);
