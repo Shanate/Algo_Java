@@ -26,8 +26,8 @@ public class Main {
         }
         for (int i = 1; i < 7; i++) {
 
-            sum += (Female[i] / K) + (Female[i] % K);
-            sum += (Male[i] / K) + (Male[i] % K);
+            sum += (Female[i] + K - 1) / K;
+            sum += (Male[i] + K - 1) / K;
 
         }
 
